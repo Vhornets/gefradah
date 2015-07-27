@@ -1,0 +1,15 @@
+{
+  "name": "gefradah",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "http://inxerasyndrome.com",
+  "ignore": [
+    "/.*",
+    "composer.json"
+  ],
+  "dependencies": {
+    "jquery": "<= 1.9.1",
+    "bootstrap": ">= 3.3.2",
+    "jquery-validate": "*"
+  }
+}

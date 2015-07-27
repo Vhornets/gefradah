@@ -1,0 +1,205 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@email-white-name: email-white;
+@email-white-x: 207px;
+@email-white-y: 0px;
+@email-white-offset-x: -207px;
+@email-white-offset-y: 0px;
+@email-white-width: 32px;
+@email-white-height: 32px;
+@email-white-total-width: 239px;
+@email-white-total-height: 170px;
+@email-white-image: '../img/sprite_1437999152289.png';
+@email-white: 207px 0px -207px 0px 32px 32px 239px 170px '../img/sprite_1437999152289.png' email-white;
+@facebook-white-name: facebook-white;
+@facebook-white-x: 0px;
+@facebook-white-y: 138px;
+@facebook-white-offset-x: 0px;
+@facebook-white-offset-y: -138px;
+@facebook-white-width: 32px;
+@facebook-white-height: 32px;
+@facebook-white-total-width: 239px;
+@facebook-white-total-height: 170px;
+@facebook-white-image: '../img/sprite_1437999152289.png';
+@facebook-white: 0px 138px 0px -138px 32px 32px 239px 170px '../img/sprite_1437999152289.png' facebook-white;
+@facebook-name: facebook;
+@facebook-x: 0px;
+@facebook-y: 69px;
+@facebook-offset-x: 0px;
+@facebook-offset-y: -69px;
+@facebook-width: 64px;
+@facebook-height: 64px;
+@facebook-total-width: 239px;
+@facebook-total-height: 170px;
+@facebook-image: '../img/sprite_1437999152289.png';
+@facebook: 0px 69px 0px -69px 64px 64px 239px 170px '../img/sprite_1437999152289.png' facebook;
+@github-white-name: github-white;
+@github-white-x: 148px;
+@github-white-y: 138px;
+@github-white-offset-x: -148px;
+@github-white-offset-y: -138px;
+@github-white-width: 32px;
+@github-white-height: 32px;
+@github-white-total-width: 239px;
+@github-white-total-height: 170px;
+@github-white-image: '../img/sprite_1437999152289.png';
+@github-white: 148px 138px -148px -138px 32px 32px 239px 170px '../img/sprite_1437999152289.png' github-white;
+@lastfm-white-name: lastfm-white;
+@lastfm-white-x: 74px;
+@lastfm-white-y: 138px;
+@lastfm-white-offset-x: -74px;
+@lastfm-white-offset-y: -138px;
+@lastfm-white-width: 32px;
+@lastfm-white-height: 32px;
+@lastfm-white-total-width: 239px;
+@lastfm-white-total-height: 170px;
+@lastfm-white-image: '../img/sprite_1437999152289.png';
+@lastfm-white: 74px 138px -74px -138px 32px 32px 239px 170px '../img/sprite_1437999152289.png' lastfm-white;
+@lastfm-name: lastfm;
+@lastfm-x: 138px;
+@lastfm-y: 69px;
+@lastfm-offset-x: -138px;
+@lastfm-offset-y: -69px;
+@lastfm-width: 64px;
+@lastfm-height: 64px;
+@lastfm-total-width: 239px;
+@lastfm-total-height: 170px;
+@lastfm-image: '../img/sprite_1437999152289.png';
+@lastfm: 138px 69px -138px -69px 64px 64px 239px 170px '../img/sprite_1437999152289.png' lastfm;
+@play-name: play;
+@play-x: 0px;
+@play-y: 0px;
+@play-offset-x: 0px;
+@play-offset-y: 0px;
+@play-width: 64px;
+@play-height: 64px;
+@play-total-width: 239px;
+@play-total-height: 170px;
+@play-image: '../img/sprite_1437999152289.png';
+@play: 0px 0px 0px 0px 64px 64px 239px 170px '../img/sprite_1437999152289.png' play;
+@soundcloud-white-name: soundcloud-white;
+@soundcloud-white-x: 37px;
+@soundcloud-white-y: 138px;
+@soundcloud-white-offset-x: -37px;
+@soundcloud-white-offset-y: -138px;
+@soundcloud-white-width: 32px;
+@soundcloud-white-height: 32px;
+@soundcloud-white-total-width: 239px;
+@soundcloud-white-total-height: 170px;
+@soundcloud-white-image: '../img/sprite_1437999152289.png';
+@soundcloud-white: 37px 138px -37px -138px 32px 32px 239px 170px '../img/sprite_1437999152289.png' soundcloud-white;
+@soundcloud-name: soundcloud;
+@soundcloud-x: 138px;
+@soundcloud-y: 0px;
+@soundcloud-offset-x: -138px;
+@soundcloud-offset-y: 0px;
+@soundcloud-width: 64px;
+@soundcloud-height: 64px;
+@soundcloud-total-width: 239px;
+@soundcloud-total-height: 170px;
+@soundcloud-image: '../img/sprite_1437999152289.png';
+@soundcloud: 138px 0px -138px 0px 64px 64px 239px 170px '../img/sprite_1437999152289.png' soundcloud;
+@twitter-white-name: twitter-white;
+@twitter-white-x: 111px;
+@twitter-white-y: 138px;
+@twitter-white-offset-x: -111px;
+@twitter-white-offset-y: -138px;
+@twitter-white-width: 32px;
+@twitter-white-height: 32px;
+@twitter-white-total-width: 239px;
+@twitter-white-total-height: 170px;
+@twitter-white-image: '../img/sprite_1437999152289.png';
+@twitter-white: 111px 138px -111px -138px 32px 32px 239px 170px '../img/sprite_1437999152289.png' twitter-white;
+@twitter-name: twitter;
+@twitter-x: 69px;
+@twitter-y: 69px;
+@twitter-offset-x: -69px;
+@twitter-offset-y: -69px;
+@twitter-width: 64px;
+@twitter-height: 64px;
+@twitter-total-width: 239px;
+@twitter-total-height: 170px;
+@twitter-image: '../img/sprite_1437999152289.png';
+@twitter: 69px 69px -69px -69px 64px 64px 239px 170px '../img/sprite_1437999152289.png' twitter;
+@zoom-name: zoom;
+@zoom-x: 69px;
+@zoom-y: 0px;
+@zoom-offset-x: -69px;
+@zoom-offset-y: 0px;
+@zoom-width: 64px;
+@zoom-height: 64px;
+@zoom-total-width: 239px;
+@zoom-total-height: 170px;
+@zoom-image: '../img/sprite_1437999152289.png';
+@zoom: 69px 0px -69px 0px 64px 64px 239px 170px '../img/sprite_1437999152289.png' zoom;
+@spritesheet-width: 239px;
+@spritesheet-height: 170px;
+@spritesheet-image: '../img/sprite_1437999152289.png';
+@spritesheet-sprites: @email-white @facebook-white @facebook @github-white @lastfm-white @lastfm @play @soundcloud-white @soundcloud @twitter-white @twitter @zoom;
+@spritesheet: 239px 170px '../img/sprite_1437999152289.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: extract(@sprite, 10);
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
